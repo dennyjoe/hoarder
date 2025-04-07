@@ -10,7 +10,7 @@ networks:
 services:
   web:
     container_name: hoarder
-    image: ghcr.io/hoarder-app/hoarder:${HOARDER_VERSION}
+    image: ghcr.io/karakeep-app/karakeep:${HOARDER_VERSION}
     restart: unless-stopped
     volumes:
       - $INSTALL_DIR/data:/data
